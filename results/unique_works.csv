@@ -1,0 +1,13 @@
+catalog,class,editions,count,works (author + 3 words),works (author + 2 words),editions per work
+USTC,Spiritual,all,5622,3376,3084,1.67
+USTC,Spiritual,48+ pages,3295,1787,1633,1.84
+USTC,Preaching,all,6189,5011,4570,1.24
+USTC,Preaching,48+ pages,2214,1614,1526,1.37
+USTC,Pastoral,all,17382,11896,10718,1.46
+USTC,Pastoral,48+ pages,8553,5133,4748,1.67
+BNE,Spiritual,all,4809,3324,3077,1.45
+BNE,Spiritual,48+ pages,2692,1776,1666,1.52
+BNE,Preaching,all,4716,4075,3852,1.16
+BNE,Preaching,48+ pages,2277,1917,1846,1.19
+BNE,Pastoral,all,13719,10323,9524,1.33
+BNE,Pastoral,48+ pages,7644,5545,5243,1.38

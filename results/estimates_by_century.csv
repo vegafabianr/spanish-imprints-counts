@@ -1,0 +1,31 @@
+catalog,century,group,editions,low,high,percent of records
+USTC,16th,Pastoral,2814,2338,3290,25.3
+USTC,16th,Spiritual,1220,943,1497,10.9
+USTC,16th,Preaching,187,74,299,1.7
+USTC,16th,Sacred history,399,150,649,3.6
+USTC,16th,Moral theology,815,471,1158,7.3
+USTC,16th,Catechisms,193,82,305,1.7
+USTC,17th,Pastoral,14656,13726,15586,20.7
+USTC,17th,Spiritual,4371,3837,4905,6.2
+USTC,17th,Preaching,4653,4151,5156,6.6
+USTC,17th,Sacred history,2599,2100,3097,3.7
+USTC,17th,Moral theology,2799,2225,3373,3.9
+USTC,17th,Catechisms,234,87,382,0.3
+BNE,16th,Pastoral,1241,1092,1389,20.2
+BNE,16th,Spiritual,474,385,563,7.7
+BNE,16th,Preaching,110,73,146,1.8
+BNE,16th,Sacred history,212,144,281,3.5
+BNE,16th,Moral theology,421,314,528,6.8
+BNE,16th,Catechisms,24,11,37,0.4
+BNE,17th,Pastoral,4520,4037,5002,12.4
+BNE,17th,Spiritual,1263,982,1544,3.5
+BNE,17th,Preaching,1429,1162,1696,3.9
+BNE,17th,Sacred history,952,673,1230,2.6
+BNE,17th,Moral theology,791,497,1085,2.2
+BNE,17th,Catechisms,85,16,153,0.2
+BNE,18th,Pastoral,6458,5854,7061,17.1
+BNE,18th,Spiritual,2478,2058,2899,6.6
+BNE,18th,Preaching,1866,1562,2171,4.9
+BNE,18th,Sacred history,812,588,1037,2.1
+BNE,18th,Moral theology,1038,665,1411,2.7
+BNE,18th,Catechisms,263,138,388,0.7
