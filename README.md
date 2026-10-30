@@ -124,6 +124,18 @@ editions in both catalogs, 13.7 (USTC) and 9.6 percent (BNE) of preaching editio
 identify Jesuits with a list built from Wikidata, the BNE authority file and the inventories of Jesuit mission libraries
 (notebook 2).
 
+**6. Digitized at the BNE** (`results/bne_digitized.csv`). I count a BNE record as digitized when it links to the Biblioteca
+Digital Hispánica: that is, digitized by the BNE, not that no digital copy exists elsewhere. The BNE has digitized 26,289 of its
+80,401 records for 1501–1800 (32.7 percent). For the groups, estimates with 95% intervals:
+
+| Group | Editions | Digitized | Interval | Percent |
+|---|---|---|---|---|
+| Pastoral | 12,218 | 4,049 | 3,569–4,530 | 33.1% |
+| Spiritual | 4,215 | 1,476 | 1,135–1,818 | 35.0% |
+| Preaching | 3,405 | 1,294 | 1,027–1,561 | 38.0% |
+
+By century, the share is highest in the sixteenth (spiritual 65.8 percent) and lowest in the seventeenth (26.9).
+
 ### Limits
 
 - **The model misses spiritual books.** In my pilot, 97 percent of the books the model called spiritual were spiritual, but it
@@ -152,7 +164,7 @@ identify Jesuits with a list built from Wikidata, the BNE authority file and the
 | `7_llm_count` | Run the language model on the sample in Google Colab (T4 GPU, about one hour) |
 | `7b_llm_count_bne16` | Run the same model on the extra sample (Google Colab, about ten minutes) |
 | `7c_ml_classifier` | Train the check classifier on the model's answers |
-| `8_report` | Estimates by catalog and century, the projection, tables, figures |
+| `8_report` | Estimates by catalog and century, the projection, BNE digitization, tables, figures |
 
 The notebooks run in order in Jupyter (Python 3.9, pandas, scikit-learn for notebooks 4 and 7c, matplotlib); notebooks 7 and 7b
 run on Google Colab. `helpers.py` and `lexicon.py` hold the shared functions. Paths are set in the first cell of each notebook.
@@ -272,6 +284,18 @@ las espirituales en los dos catálogos, el 13,7 (USTC) y el 9,6 % (BNE) de las d
 pastorales. Identifico a los jesuitas con una lista que armé a partir de Wikidata, el archivo de autoridades de la BNE y los
 inventarios de las bibliotecas de las misiones jesuitas (notebook 2).
 
+**6. Digitalizados por la BNE** (`results/bne_digitized.csv`). Cuento un registro de la BNE como digitalizado cuando enlaza con la
+Biblioteca Digital Hispánica: es decir, digitalizado por la BNE, no que no exista una copia digital en otro lado. La BNE digitalizó
+26.289 de sus 80.401 registros de 1501–1800 (32,7 %). Para los grupos, estimaciones con intervalos del 95 %:
+
+| Grupo | Ediciones | Digitalizadas | Intervalo | Porcentaje |
+|---|---|---|---|---|
+| Pastoral | 12.218 | 4.049 | 3.569–4.530 | 33,1 % |
+| Espiritual | 4.215 | 1.476 | 1.135–1.818 | 35,0 % |
+| Predicación | 3.405 | 1.294 | 1.027–1.561 | 38,0 % |
+
+Por siglo, la proporción es mayor en el XVI (espiritual 65,8 %) y menor en el XVII (26,9 %).
+
 ### Límites
 
 - **El modelo pierde libros espirituales.** En mi piloto, el 97 % de los libros que el modelo llamó espirituales lo eran, pero
@@ -300,7 +324,7 @@ inventarios de las bibliotecas de las misiones jesuitas (notebook 2).
 | `7_llm_count` | Corro el modelo de lenguaje sobre la muestra en Google Colab (GPU T4, alrededor de una hora) |
 | `7b_llm_count_bne16` | Corro el mismo modelo sobre la muestra extra (Google Colab, unos diez minutos) |
 | `7c_ml_classifier` | Entreno el clasificador de control con las respuestas del modelo |
-| `8_report` | Estimaciones por catálogo y siglo, la proyección, tablas, gráficos |
+| `8_report` | Estimaciones por catálogo y siglo, la proyección, digitalización en la BNE, tablas, gráficos |
 
 Los notebooks se corren en orden en Jupyter (Python 3.9, pandas, scikit-learn para los notebooks 4 y 7c, matplotlib); los
 notebooks 7 y 7b se corren en Google Colab. `helpers.py` y `lexicon.py` guardan las funciones compartidas. Las rutas están en la
